@@ -1,0 +1,145 @@
+body {
+    max-width: 1440px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 115px;
+    color: #ffffff;
+    gap: 10px;
+}
+
+nav {
+    width: 1136px;
+    justify-content: space-between;
+    padding: 32px 0 32px 0;
+    color: #ffffff;
+    display: flex;
+    margin: auto;
+    /* Agregado para centrar horizontalmente */
+    align-items: center;
+    /* Agregado para centrar verticalmente */
+}
+
+.container-logo {
+    width: 601px;
+    height: 50px;
+    gap: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoH {
+    width: 176px;
+    height: 50px;
+}
+
+.busca {
+    width: 399px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    background-color: #F5F5F5;
+    border: none;
+
+}
+
+ input:focus {
+    outline: none;
+    /* Quita el borde cuando el input está enfocado */
+    border: none;
+    /* Quita el borde del input */
+}
+
+.container-logo form {
+    display: flex;
+}
+
+.buscar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.buscar i {
+    width: 24px;
+    height: 24px;
+    color: #a2a2a2;
+    position: relative;
+    float: right;
+    right: 55px;
+    top: 5%;
+    cursor: pointer;
+}
+
+form ::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #a2a2a2;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.login{
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2a7ae4;
+    padding: 16px;
+    gap: 10px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.87px;
+    color: #2a7ae4;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #2a7ae4;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/* BANNER */
+.banner {
+    background-image: url(../../img/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    border: 2px solid #f14064;
+    height: 352px;
+    padding: 32px;
+    gap: 16px;
+}
+
+.infoB{
+    width: 1136px;
+    height: 170px;
+    gap: 16px;
+}
+
+main {
+    border: 2px solid #f14064;
+}
+
+footer {
+    border: 2px solid #f14064;
+}
